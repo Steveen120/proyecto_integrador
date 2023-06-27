@@ -1,4 +1,3 @@
-
 import 'package:ecommerce_int2/app_properties.dart';
 import 'package:ecommerce_int2/screens/auth/welcome_back_page.dart';
 import 'package:flutter/material.dart';
@@ -52,7 +51,10 @@ class _SplashScreenState extends State<SplashScreen>
                 Expanded(
                   child: Opacity(
                       opacity: opacity.value,
-                      child: new Image.asset('assets/logo.jpg', width: 2000,)),
+                      child: new Image.asset(
+                        'assets/logo.jpg',
+                        width: 2000,
+                      )),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
