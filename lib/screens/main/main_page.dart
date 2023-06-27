@@ -173,11 +173,11 @@ class _MainPageState extends State<MainPage>
 
     Widget tabBar = TabBar(
       tabs: [
-        Tab(text: 'Trending'),
-        Tab(text: 'Sports'),
-        Tab(text: 'Headsets'),
-        Tab(text: 'Wireless'),
-        Tab(text: 'Bluetooth'),
+        Tab(text: 'Productos'),
+        Tab(text: 'Provedores'),
+        Tab(text: 'Categorias'),
+        Tab(text: 'Entrada Producto'),
+        Tab(text: 'Salida Producto'),
       ],
       labelStyle: TextStyle(fontSize: 16.0),
       unselectedLabelStyle: TextStyle(
